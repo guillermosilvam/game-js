@@ -3,21 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <div class="container">
-        
+
+        <div class="title_container">
+            <h1>Rock, paper, scissor.</h1>
+        </div>
+
         <div class="button_container">
             <button id="rock" type="button" data-choice="rock">Rock</button>
             <button id="scissor" type="button" data-choice="scissor">Scissor</button>
             <button id="paper" type="button" data-choice="paper">Paper</button>
         </div>
 
+        <div id="display" class="display">
+
+        </div>
+
         <div class="score_container">
-            <h2 id="user_score">Score: 0</h2>
-            <h2 id="computer_score">Score: 0</h2>
+            <h2 id="user_score">User score: 0</h2>
+            <h2 id="computer_score">PC score: 0</h2>
         </div>
 
     </div>
